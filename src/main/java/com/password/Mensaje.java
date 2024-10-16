@@ -1,3 +1,5 @@
+package com.password;
+
 public class Mensaje {
     private String msg;
 

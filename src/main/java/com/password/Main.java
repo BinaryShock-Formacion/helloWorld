@@ -7,8 +7,9 @@ public class Main {
         // Para compilar: mvn clean package
         // Para ejecutar: java -jar target/HelloWorld-1.0-SNAPSHOT.jar [argumentos]
 
-        System.out.println(args.length > 0 ? "Hello " + args[0] : "Hello World!");
-        System.out.println(new Mensaje(args.length > 0 ? args[0] : "").getMsg());
-
+        // System.out.println(args.length > 0 ? "Hello " + args[0] : "Hello World!");
+        //System.out.println(new Mensaje(args.length > 0 ? args[0] : "").getMsg());
+        Mensaje mensaje = new Mensaje();
+        mensaje.imprimirMensaje(args);
     }
 }

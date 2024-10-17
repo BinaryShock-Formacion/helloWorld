@@ -6,6 +6,10 @@
     <artifactId>HelloWorld</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <!-- // La estructura de carpetas para un proyecto Maven debería ser la siguiente: src / main / java
+        // Hay que añadir plugin maven en el pom
+        // Para compilar: mvn clean package
+        // Para ejecutar: java -jar target/HelloWorld-1.0-SNAPSHOT.jar [argumentos] -->
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
